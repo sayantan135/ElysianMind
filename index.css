@@ -1,0 +1,917 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/06/00/61/66/240_F_600616654_8ZbujyzMAcPc5SdN4sfNeuO80pQQJblr.jpg");
+    background-size: cover;
+}
+
+#navBar{
+    background-color: rgba(255, 255, 255, 0.766);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 40px;
+}
+
+#headText{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.367);
+    margin-top: 130px;
+    padding-bottom: 30px;
+    margin-bottom: 180px;
+}
+
+#descText{
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold;     */
+    margin: 0 20px;
+}
+
+#introText{
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#boxFlex{
+    display: flex;
+    justify-content: center;
+}
+
+#buttons{
+    display: flex;
+    margin: 0 60px;
+}
+
+.mainBtn{
+    /* margin-top: 30px; */
+    /* margin-bottom: 40px; */
+    border-radius: 7px;
+    width: auto;
+    height: 40px;
+    border: 0;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+#ReadNext{
+    margin-right: 2px;
+    margin-top: 40px;
+    width: 200px;
+    background-color: rgb(37, 189, 254);
+    cursor: pointer;
+    box-shadow: 0px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#ReadNext:hover{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgb(37, 189, 254);
+    font-weight: bold;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.559);
+}
+
+#startText{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(251, 255, 0);
+    cursor: pointer;
+    box-shadow: 0px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+#startText:hover{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgb(251, 255, 0);
+    font-weight: bold;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.559);
+}
+.mainBtn:hover{
+    background-color: rgb(127, 127, 127);
+}
+
+#footerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.766);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.icon{
+    color: black;
+}
+
+#footerText{
+    font-size: 20px;
+    /* font-family: 'PT Sans', sans-serif; */
+}
+
+#box2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.367);
+    margin-top: 80px;
+    padding: 30px ;
+    padding-top: px;
+    margin-bottom: 180px;
+}
+
+#disclamairHead{
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#descriptionText{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#footerDisclamair{
+    margin-top: 10px;
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#warningText{
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 30px;
+    color: rgb(89, 89, 90);
+}
+
+#infoFlex{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+}
+#headInfo{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.optional{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0 6px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 3px;
+    text-align: center;
+}
+.optional:focus{
+    outline: none;
+}
+.optional:hover{
+    background-color: rgba(255, 255, 255, 0.329);
+}
+.labelLoss{
+    font-size: 13px;
+    line-height: 13px;
+    text-align: justify;
+    margin-top: 9px;
+}
+#lossOption{
+    text-align: left;
+}
+#nextTest{
+    /* width: 220px; */
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: rgba(3, 155, 3, 0.527);
+    margin: 20px 30px;
+    box-shadow: 10px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#nextTest:hover{
+    background-color:  rgba(3, 155, 3, 0);
+    border: 2px solid rgba(3, 155, 3, 0.527) ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 10px 15px 10px 0px rgba(0, 0, 0, 0.559);
+}
+
+.question{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+#buttonQuesFlex{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.buttonOption{
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border-width: 0;
+    font-family: 'Quicksand', sans-serif;   
+    background-color: #0275d8; 
+    color: white;
+    box-shadow: 10px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+.buttonOption:hover{
+    background-color: #4daafb;  
+    color: black;
+    font-weight: bold; 
+    cursor: pointer;
+    box-shadow: 10px 15px 10px 0px rgba(0, 0, 0, 0.559);
+}
+
+#alertFlex{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#goHomePageBtn{
+    margin: 20px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    font-size: 12px;
+    background-color: rgb(37, 189, 254);
+    box-shadow: 10px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#goHomePageBtn:hover{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgb(37, 189, 254);
+    font-weight: bold;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.559);
+    cursor: pointer;
+}
+
+#startNew{    
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    font-size: 12px;
+    background-color: rgb(251, 255, 0);
+    box-shadow: 10px 15px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#startNew:hover{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgb(251, 255, 0);
+    font-weight: bold;
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.559);
+    cursor: pointer;
+}
+
+
+.alertHead{
+    border: 1px solid rgb(255, 210, 210);
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    font-family: 'Quicksand', sans-serif;  
+    font-size: 18px;
+    box-shadow: 6px 5px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#veryhighAlert{
+    background-color: rgba(255, 0, 0,0.637);
+    color: white;
+}
+
+#highAlert{
+    background-color: rgb(255, 128, 0,0.637);
+    color: white;
+}
+
+#mediumAlert{
+    background-color: rgb(255, 217, 0,0.637);
+}
+
+#lessAlert{
+    background-color: rgba(0, 162, 255, 0.637);
+}
+
+#veryLessAlert{
+    background-color: rgba(0, 42, 255, 0.637);
+    color: white;
+}
+
+#scoreWhole{
+    background-color: black;
+    border-radius: 10px;
+    border: 0px solid black;
+    margin: 25px 0;
+    font-family: 'Quicksand', sans-serif;  
+    box-shadow: 6px 5px 25px 1px rgba(0, 0, 0, 0.559);
+}
+
+#score{
+   background-color: rgba(223, 222, 222, 0.936);
+   border-top-left-radius:10px ;
+   border-top-right-radius:10px ;
+   text-align: left;
+   padding:10px ;
+}
+
+#advise{
+    background-color: rgb(153, 206, 249);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    text-align: left;
+    padding:10px ;
+}
+
+#wish{
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    #buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #startText{
+        margin-left: 0;
+    }
+}
+
+
+
+/*  iPads, Tablets */
+@media screen and (min-width: 481px) and  (max-width: 768px){
+    #headText{
+        font-size: 17px;
+    }
+
+    #box{
+        width: 400px;
+        margin-top: 170px;
+        margin-bottom: 100px;
+        padding-bottom: 40px;
+    }
+
+    #descText{
+        margin: 0 20px;
+        margin-top: 6px;
+        font-size: 15px;
+    }
+
+    #ReadNext{
+        /* margin-top: 30px; */
+        width: 230px;
+    }
+
+    #startText{
+        width: 230px;
+        margin-left: 0;
+    }
+
+    #introText{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    #box2{
+        width: 600px;
+        padding: 40px;
+    }
+    #buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .question{
+        font-size: 25px;  
+    }
+    
+    /* #buttonQuesFlex{
+        /* margin: 30px; */
+    /* } */ 
+    
+    .buttonOption{
+        margin: 13px;
+        width: 300px;
+        height: 35px;
+        border-radius: 7px; 
+    }
+
+
+
+
+
+
+#headInfo{
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+.optional{
+    height: 33px;
+    width: 300px;
+    font-size: 18px;
+    padding: 0 8px;
+}
+.labelLoss{
+    font-size: 18px;
+    line-height: 20px;
+}
+#nextTest{
+    height: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+
+
+
+#goHomePageBtn{
+    margin: 24px;
+    width: 35%;
+    font-size: 17px;
+}
+
+#startNew{    
+    margin-top: 24px;
+    width: 30%;
+    font-size: 17px;
+    
+}
+
+
+.alertHead{
+    width: 260px;
+    font-size: 20px;
+}
+
+
+#scoreWhole{
+    margin: 27px 0;
+}
+
+#score{
+   padding:14px ;
+}
+
+#advise{
+    padding:14px ;
+}
+
+#wish{
+    font-size: 34px;
+}
+
+}
+
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and  (max-width: 1024px){
+    #headText{
+        font-size: 20px;
+    }
+
+    #box{
+        width: 800px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    #descText{
+        margin: 0 4px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #ReadNext{
+        margin-top: 30px;
+        width: 300px;
+    }
+    #startText{
+        width: 300px;
+    }
+
+    #introText{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    #buttons{
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #box2{
+        width: 500px;
+    }
+
+    
+    .question{
+        font-size: 25px;  
+    }
+    
+    /* #buttonQuesFlex{
+        /* margin: 30px; */
+    /* } */ 
+    
+    .buttonOption{
+        margin: 13px;
+        width: 300px;
+        height: 40px;
+        border-radius: 7px; 
+    }
+
+
+
+
+    
+
+
+#headInfo{
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+.optional{
+    height: 33px;
+    width: 300px;
+    font-size: 18px;
+    padding: 0 8px;
+}
+.labelLoss{
+    font-size: 18px;
+    line-height: 20px;
+}
+#nextTest{
+    height: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+    
+#goHomePageBtn{
+    margin: 24px;
+    width: 30%;
+    font-size: 20px;
+}
+
+#startNew{    
+    margin-top: 24px;
+    width: 30%;
+    font-size: 20px;
+    
+}
+
+
+
+
+.alertHead{
+    width: 290px;
+    font-size: 22px;
+}
+
+
+#scoreWhole{
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+#score{
+   padding:15px ;
+}
+
+#advise{
+    padding:15px ;
+}
+
+#wish{
+    font-size: 36px;
+}
+
+    
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and  (max-width: 1200px){
+    #headText{
+        font-size: 20px;
+    }
+
+    #box{
+        width: 800px;
+        margin-bottom: 90px;
+        padding-bottom: 60px;
+    }
+
+    #descText{
+        margin: 0 5px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    #ReadNext{
+        margin-top: 40px;
+        width: 300px;
+    }
+
+    #startText{
+        width: 300px;
+    }
+
+    #introText{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+
+    #buttons{
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #box2{
+        width: 650px;
+    }
+
+    
+    .question{
+        font-size: 30px;  
+    }
+    
+    #buttonQuesFlex{
+        margin: 30px;
+        flex-direction:initial;
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .buttonOption{
+        margin: 20px 10px;
+        width: 273px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+#headInfo{
+    font-size: 27px;
+    margin: 28px;
+}
+.optional{
+    height: 33px;
+    width: 500px;
+    margin: 13px;
+    font-size: 18px;
+    padding: 0 8px;
+}
+.labelLoss{
+    font-size: 18px;
+    line-height: 20px;
+}
+#nextTest{
+    height: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+
+       
+#goHomePageBtn{
+    margin: 24px;
+    width: 36%;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#startNew{    
+    margin-top: 24px;
+    width: 36%;
+    font-size: 20px;
+    padding: 8px;    
+}
+
+
+
+
+.alertHead{
+    width: 300px;
+    font-size: 22px;
+}
+
+
+#scoreWhole{
+    margin: 32px 0;
+    font-size: 18px;
+}
+
+#score{
+   padding:15px ;
+}
+
+#advise{
+    padding:15px ;
+}
+
+#wish{
+    font-size: 38px;
+}
+
+
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    #headText{
+        font-size: 30px;
+    }
+
+    #box{
+        width: 1000px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    #descText{
+        margin: 0 5px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    #ReadNext{
+        margin-top: 60px;
+        height: 60px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    #introText{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+
+    #startText{
+        height: 60px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    #buttons{
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #navBar{
+        height: 50px;
+    }
+
+    #footerText{
+        font-size: 30px;
+    }
+    .icon{
+        font-size: 40px;
+        /* height: 200px */
+    }
+    
+    #box2{
+        width: 850px;
+    }
+
+    #descriptionText{
+        font-size: 18px;
+    }
+
+    #disclamairHead{
+        font-size: 24px;
+    }
+    .question{
+        font-size: 45px;  
+    }
+    
+    #buttonQuesFlex{
+        margin: 30px;
+        flex-direction:initial;
+        width: 800px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .buttonOption{
+        margin: 20px 40px;
+        width: 310px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+
+
+    
+
+
+#headInfo{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.optional{
+    height: 40px;
+    width: 700px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 0 8px;
+}
+.labelLoss{
+    font-size: 25px;
+    line-height: 23px;
+    margin: 20px;
+}
+#nextTest{
+    height: 45px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+  
+
+
+
+
+
+       
+#goHomePageBtn{
+    margin: 24px;
+    width: 36%;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#startNew{    
+    margin-top: 24px;
+    width: 36%;
+    font-size: 20px;
+    padding: 8px;    
+}
+
+
+
+
+
+
+
+.alertHead{
+    width: 320px;
+    font-size: 24px;
+}
+
+
+#scoreWhole{
+    margin: 33px 0;
+    font-size: 19px;
+}
+
+#score{
+   padding:15px ;
+}
+
+#advise{
+    padding:15px ;
+}
+
+#wish{
+    font-size: 40px;
+}
+
+
+
+}
